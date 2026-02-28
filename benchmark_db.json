@@ -1,0 +1,1390 @@
+{
+  "tests": [
+    {
+      "test_name": "Hemoglobin",
+      "aliases": [
+        "hb",
+        "hgb",
+        "haemoglobin",
+        "hemoglobin (hb)",
+        "hb%",
+        "haemoglobin (hb)"
+      ],
+      "unit": "g/dL",
+      "low": 12.0,
+      "high": 17.5,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Hemoglobin is the protein in red blood cells that carries oxygen throughout your body."
+    },
+    {
+      "test_name": "Red Blood Cell Count",
+      "aliases": [
+        "rbc",
+        "rbc count",
+        "red blood cells",
+        "erythrocytes",
+        "total rbc",
+        "total rbc count",
+        "total r.b.c. count",
+        "total r.b.c count",
+        "r.b.c. count",
+        "r.b.c count",
+        "rbc's",
+        "erythrocyte count",
+        "red cell count"
+      ],
+      "unit": "million/uL",
+      "low": 4.0,
+      "high": 6.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Red blood cells carry oxygen from your lungs to the rest of your body."
+    },
+    {
+      "test_name": "White Blood Cell Count",
+      "aliases": [
+        "wbc",
+        "wbc count",
+        "white blood cells",
+        "leukocytes",
+        "total wbc",
+        "tlc",
+        "total wbc count",
+        "total w.b.c. count",
+        "total w.b.c count",
+        "w.b.c. count",
+        "w.b.c count",
+        "wbc's",
+        "leukocyte count",
+        "total leucocyte count",
+        "total leukocyte count",
+        "white cell count"
+      ],
+      "unit": "cells/uL",
+      "low": 4000,
+      "high": 11000,
+      "category": "Complete Blood Count (CBC)",
+      "description": "White blood cells are part of your immune system and help fight infections."
+    },
+    {
+      "test_name": "Platelet Count",
+      "aliases": [
+        "platelets",
+        "plt",
+        "thrombocytes",
+        "platelet",
+        "total platelet count",
+        "thrombocyte count",
+        "plt count"
+      ],
+      "unit": "cells/uL",
+      "low": 150000,
+      "high": 400000,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Platelets help your blood clot and stop bleeding."
+    },
+    {
+      "test_name": "Hematocrit",
+      "aliases": [
+        "hct",
+        "pcv",
+        "packed cell volume",
+        "p.c.v.",
+        "p.c.v",
+        "haematocrit"
+      ],
+      "unit": "%",
+      "low": 36.0,
+      "high": 54.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Hematocrit measures the percentage of your blood that is made up of red blood cells."
+    },
+    {
+      "test_name": "MCV",
+      "aliases": [
+        "mean corpuscular volume",
+        "m.c.v.",
+        "m.c.v",
+        "mcv value"
+      ],
+      "unit": "fL",
+      "low": 80.0,
+      "high": 100.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "MCV measures the average size of your red blood cells."
+    },
+    {
+      "test_name": "MCH",
+      "aliases": [
+        "mean corpuscular hemoglobin",
+        "m.c.h.",
+        "m.c.h",
+        "mean corpuscular haemoglobin",
+        "mch value"
+      ],
+      "unit": "pg",
+      "low": 27.0,
+      "high": 33.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "MCH measures the average amount of hemoglobin in each red blood cell."
+    },
+    {
+      "test_name": "MCHC",
+      "aliases": [
+        "mean corpuscular hemoglobin concentration",
+        "m.c.h.c.",
+        "m.c.h.c",
+        "mean corpuscular haemoglobin concentration",
+        "mchc value"
+      ],
+      "unit": "g/dL",
+      "low": 32.0,
+      "high": 36.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "MCHC measures the average concentration of hemoglobin in your red blood cells."
+    },
+    {
+      "test_name": "RDW",
+      "aliases": [
+        "red cell distribution width",
+        "rdw-cv",
+        "rdw cv",
+        "r.d.w.",
+        "r.d.w",
+        "r.d.w.-cv",
+        "r.d.w-cv",
+        "rdw-sd",
+        "rdw sd",
+        "red cell distribution width (r.d.w.-cv)",
+        "red cell distribution width (rdw-cv)",
+        "red cell distribution width (rdw)",
+        "rdw (cv)"
+      ],
+      "unit": "%",
+      "low": 11.5,
+      "high": 14.5,
+      "category": "Complete Blood Count (CBC)",
+      "description": "RDW measures the variation in size of your red blood cells. High values may suggest nutritional deficiencies."
+    },
+    {
+      "test_name": "MPV",
+      "aliases": [
+        "mean platelet volume",
+        "m.p.v.",
+        "m.p.v",
+        "mpv value"
+      ],
+      "unit": "fL",
+      "low": 7.5,
+      "high": 11.5,
+      "category": "Complete Blood Count (CBC)",
+      "description": "MPV measures the average size of your platelets. It can help assess platelet function."
+    },
+    {
+      "test_name": "PDW",
+      "aliases": [
+        "platelet distribution width",
+        "p.d.w.",
+        "p.d.w",
+        "pdw value"
+      ],
+      "unit": "fL",
+      "low": 9.0,
+      "high": 17.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "PDW measures the variation in size of your platelets."
+    },
+    {
+      "test_name": "PCT",
+      "aliases": [
+        "plateletcrit",
+        "platelet crit",
+        "p.c.t.",
+        "p.c.t"
+      ],
+      "unit": "%",
+      "low": 0.15,
+      "high": 0.40,
+      "category": "Complete Blood Count (CBC)",
+      "description": "PCT represents the volume of blood occupied by platelets."
+    },
+    {
+      "test_name": "P-LCR",
+      "aliases": [
+        "platelet large cell ratio",
+        "p-lcr",
+        "plcr",
+        "p.l.c.r.",
+        "platelet-large cell ratio"
+      ],
+      "unit": "%",
+      "low": 15.0,
+      "high": 35.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "P-LCR measures the percentage of large platelets in your blood."
+    },
+    {
+      "test_name": "Neutrophils",
+      "aliases": [
+        "neutrophil",
+        "neutrophils %",
+        "neutrophil count",
+        "neut",
+        "neut %",
+        "segmented neutrophils",
+        "polymorphs",
+        "poly"
+      ],
+      "unit": "%",
+      "low": 40.0,
+      "high": 70.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Neutrophils are the most common type of white blood cell and are the first responders to infection."
+    },
+    {
+      "test_name": "Lymphocytes",
+      "aliases": [
+        "lymphocyte",
+        "lymphocytes %",
+        "lymphocyte count",
+        "lymph",
+        "lymph %"
+      ],
+      "unit": "%",
+      "low": 20.0,
+      "high": 40.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Lymphocytes are white blood cells that play a central role in immune responses."
+    },
+    {
+      "test_name": "Monocytes",
+      "aliases": [
+        "monocyte",
+        "monocytes %",
+        "monocyte count",
+        "mono",
+        "mono %"
+      ],
+      "unit": "%",
+      "low": 2.0,
+      "high": 8.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Monocytes are white blood cells that help fight infections and clean up damaged cells."
+    },
+    {
+      "test_name": "Eosinophils",
+      "aliases": [
+        "eosinophil",
+        "eosinophils %",
+        "eosinophil count",
+        "eos",
+        "eos %"
+      ],
+      "unit": "%",
+      "low": 1.0,
+      "high": 4.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Eosinophils are white blood cells that fight parasites and play a role in allergic reactions."
+    },
+    {
+      "test_name": "Basophils",
+      "aliases": [
+        "basophil",
+        "basophils %",
+        "basophil count",
+        "baso",
+        "baso %"
+      ],
+      "unit": "%",
+      "low": 0.0,
+      "high": 1.0,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Basophils are white blood cells involved in allergic responses and inflammation."
+    },
+    {
+      "test_name": "Absolute Neutrophil Count",
+      "aliases": [
+        "anc",
+        "neutrophil absolute",
+        "neutrophils absolute",
+        "absolute neutrophils",
+        "abs neutrophils",
+        "abs. neutrophil count"
+      ],
+      "unit": "cells/uL",
+      "low": 2000,
+      "high": 7000,
+      "category": "Complete Blood Count (CBC)",
+      "description": "ANC is the total number of neutrophils in your blood, important for assessing infection risk."
+    },
+    {
+      "test_name": "Absolute Lymphocyte Count",
+      "aliases": [
+        "alc",
+        "lymphocyte absolute",
+        "lymphocytes absolute",
+        "absolute lymphocytes",
+        "abs lymphocytes",
+        "abs. lymphocyte count"
+      ],
+      "unit": "cells/uL",
+      "low": 1000,
+      "high": 3000,
+      "category": "Complete Blood Count (CBC)",
+      "description": "ALC is the total number of lymphocytes in your blood."
+    },
+    {
+      "test_name": "Absolute Monocyte Count",
+      "aliases": [
+        "amc",
+        "monocyte absolute",
+        "monocytes absolute",
+        "absolute monocytes",
+        "abs monocytes",
+        "abs. monocyte count"
+      ],
+      "unit": "cells/uL",
+      "low": 200,
+      "high": 1000,
+      "category": "Complete Blood Count (CBC)",
+      "description": "AMC is the total number of monocytes in your blood."
+    },
+    {
+      "test_name": "Absolute Eosinophil Count",
+      "aliases": [
+        "aec",
+        "eosinophil absolute",
+        "eosinophils absolute",
+        "absolute eosinophils",
+        "abs eosinophils",
+        "abs. eosinophil count"
+      ],
+      "unit": "cells/uL",
+      "low": 40,
+      "high": 400,
+      "category": "Complete Blood Count (CBC)",
+      "description": "AEC is the total number of eosinophils. High values may indicate allergies or parasitic infections."
+    },
+    {
+      "test_name": "Absolute Basophil Count",
+      "aliases": [
+        "abc",
+        "basophil absolute",
+        "basophils absolute",
+        "absolute basophils",
+        "abs basophils",
+        "abs. basophil count"
+      ],
+      "unit": "cells/uL",
+      "low": 0,
+      "high": 100,
+      "category": "Complete Blood Count (CBC)",
+      "description": "ABC is the total number of basophils in your blood."
+    },
+    {
+      "test_name": "ESR",
+      "aliases": [
+        "erythrocyte sedimentation rate",
+        "sed rate",
+        "e.s.r.",
+        "e.s.r",
+        "esr westergren",
+        "esr (westergren)"
+      ],
+      "unit": "mm/hr",
+      "low": 0,
+      "high": 20,
+      "category": "Complete Blood Count (CBC)",
+      "description": "ESR measures how quickly red blood cells settle, which can indicate inflammation."
+    },
+    {
+      "test_name": "Reticulocyte Count",
+      "aliases": [
+        "retic count",
+        "reticulocytes",
+        "retic",
+        "reticulocyte %"
+      ],
+      "unit": "%",
+      "low": 0.5,
+      "high": 2.5,
+      "category": "Complete Blood Count (CBC)",
+      "description": "Reticulocytes are young red blood cells. Their count shows how fast your body makes new red blood cells."
+    },
+    {
+      "test_name": "Total Bilirubin",
+      "aliases": [
+        "bilirubin total",
+        "bilirubin",
+        "t. bilirubin",
+        "t.bil",
+        "total bil",
+        "serum bilirubin",
+        "s. bilirubin total",
+        "bilirubin (total)"
+      ],
+      "unit": "mg/dL",
+      "low": 0.1,
+      "high": 1.2,
+      "category": "Liver Function Test (LFT)",
+      "description": "Bilirubin is a yellowish pigment produced when your liver breaks down old red blood cells."
+    },
+    {
+      "test_name": "Direct Bilirubin",
+      "aliases": [
+        "bilirubin direct",
+        "conjugated bilirubin",
+        "d. bilirubin",
+        "bilirubin (direct)",
+        "direct bil"
+      ],
+      "unit": "mg/dL",
+      "low": 0.0,
+      "high": 0.3,
+      "category": "Liver Function Test (LFT)",
+      "description": "Direct bilirubin is the form of bilirubin that has been processed by the liver."
+    },
+    {
+      "test_name": "Indirect Bilirubin",
+      "aliases": [
+        "bilirubin indirect",
+        "unconjugated bilirubin",
+        "ind. bilirubin",
+        "bilirubin (indirect)",
+        "indirect bil"
+      ],
+      "unit": "mg/dL",
+      "low": 0.1,
+      "high": 1.0,
+      "category": "Liver Function Test (LFT)",
+      "description": "Indirect bilirubin is the unconjugated form before it is processed by the liver."
+    },
+    {
+      "test_name": "ALT",
+      "aliases": [
+        "sgpt",
+        "alanine aminotransferase",
+        "alanine transaminase",
+        "alt/sgpt",
+        "alt (sgpt)",
+        "sgpt/alt",
+        "s.g.p.t.",
+        "s.g.p.t",
+        "serum glutamic pyruvic transaminase"
+      ],
+      "unit": "U/L",
+      "low": 7,
+      "high": 56,
+      "category": "Liver Function Test (LFT)",
+      "description": "ALT is an enzyme found mainly in the liver. Elevated levels may indicate liver damage."
+    },
+    {
+      "test_name": "AST",
+      "aliases": [
+        "sgot",
+        "aspartate aminotransferase",
+        "aspartate transaminase",
+        "ast/sgot",
+        "ast (sgot)",
+        "sgot/ast",
+        "s.g.o.t.",
+        "s.g.o.t",
+        "serum glutamic oxaloacetic transaminase"
+      ],
+      "unit": "U/L",
+      "low": 10,
+      "high": 40,
+      "category": "Liver Function Test (LFT)",
+      "description": "AST is an enzyme found in the liver, heart, and muscles. High levels may suggest tissue damage."
+    },
+    {
+      "test_name": "Alkaline Phosphatase",
+      "aliases": [
+        "alp",
+        "alk phos",
+        "alk. phosphatase",
+        "alp (alkaline phosphatase)",
+        "serum alkaline phosphatase"
+      ],
+      "unit": "U/L",
+      "low": 44,
+      "high": 147,
+      "category": "Liver Function Test (LFT)",
+      "description": "ALP is an enzyme found in the liver and bones. Elevated levels may be linked to liver or bone conditions."
+    },
+    {
+      "test_name": "GGT",
+      "aliases": [
+        "gamma gt",
+        "gamma glutamyl transferase",
+        "gamma-glutamyl transferase",
+        "gamma glutamyl transpeptidase",
+        "ggtp",
+        "g.g.t.",
+        "g.g.t"
+      ],
+      "unit": "U/L",
+      "low": 0,
+      "high": 65,
+      "category": "Liver Function Test (LFT)",
+      "description": "GGT is a liver enzyme. Elevated levels may indicate liver disease or bile duct problems."
+    },
+    {
+      "test_name": "Albumin",
+      "aliases": [
+        "alb",
+        "serum albumin",
+        "s. albumin",
+        "albumin (serum)"
+      ],
+      "unit": "g/dL",
+      "low": 3.5,
+      "high": 5.5,
+      "category": "Liver Function Test (LFT)",
+      "description": "Albumin is a protein made by the liver. It helps keep fluid in your bloodstream."
+    },
+    {
+      "test_name": "Total Protein",
+      "aliases": [
+        "tp",
+        "total proteins",
+        "serum protein",
+        "s. total protein",
+        "total protein (serum)",
+        "serum total protein"
+      ],
+      "unit": "g/dL",
+      "low": 6.0,
+      "high": 8.3,
+      "category": "Liver Function Test (LFT)",
+      "description": "Total protein measures the combined amount of albumin and globulin proteins in your blood."
+    },
+    {
+      "test_name": "Globulin",
+      "aliases": [
+        "glob",
+        "serum globulin",
+        "s. globulin",
+        "globulin (serum)"
+      ],
+      "unit": "g/dL",
+      "low": 2.0,
+      "high": 3.5,
+      "category": "Liver Function Test (LFT)",
+      "description": "Globulin is a group of proteins in your blood that help fight infections and carry nutrients."
+    },
+    {
+      "test_name": "A/G Ratio",
+      "aliases": [
+        "albumin globulin ratio",
+        "a:g ratio",
+        "ag ratio",
+        "a/g",
+        "albumin/globulin ratio",
+        "albumin/globulin"
+      ],
+      "unit": "",
+      "low": 1.0,
+      "high": 2.5,
+      "category": "Liver Function Test (LFT)",
+      "description": "A/G ratio compares albumin to globulin levels and can help detect liver or kidney problems."
+    },
+    {
+      "test_name": "Creatinine",
+      "aliases": [
+        "serum creatinine",
+        "creat",
+        "s. creatinine",
+        "creatinine (serum)",
+        "blood creatinine"
+      ],
+      "unit": "mg/dL",
+      "low": 0.6,
+      "high": 1.2,
+      "category": "Kidney Function Test (KFT)",
+      "description": "Creatinine is a waste product from muscle metabolism filtered by the kidneys."
+    },
+    {
+      "test_name": "Blood Urea Nitrogen",
+      "aliases": [
+        "bun",
+        "urea",
+        "blood urea",
+        "urea nitrogen",
+        "s. urea",
+        "serum urea",
+        "urea (serum)",
+        "blood urea nitrogen (bun)"
+      ],
+      "unit": "mg/dL",
+      "low": 7,
+      "high": 20,
+      "category": "Kidney Function Test (KFT)",
+      "description": "BUN measures the amount of nitrogen in your blood from urea, reflecting kidney function."
+    },
+    {
+      "test_name": "Uric Acid",
+      "aliases": [
+        "serum uric acid",
+        "s. uric acid",
+        "uric acid (serum)"
+      ],
+      "unit": "mg/dL",
+      "low": 3.0,
+      "high": 7.0,
+      "category": "Kidney Function Test (KFT)",
+      "description": "Uric acid is a waste product from the breakdown of purines. High levels may cause gout."
+    },
+    {
+      "test_name": "eGFR",
+      "aliases": [
+        "estimated gfr",
+        "glomerular filtration rate",
+        "gfr",
+        "e.g.f.r.",
+        "egfr (estimated)",
+        "estimated glomerular filtration rate"
+      ],
+      "unit": "mL/min/1.73m2",
+      "low": 90,
+      "high": 120,
+      "category": "Kidney Function Test (KFT)",
+      "description": "eGFR estimates how well your kidneys are filtering waste from your blood."
+    },
+    {
+      "test_name": "BUN/Creatinine Ratio",
+      "aliases": [
+        "bun creatinine ratio",
+        "urea creatinine ratio",
+        "bun:creatinine"
+      ],
+      "unit": "",
+      "low": 10,
+      "high": 20,
+      "category": "Kidney Function Test (KFT)",
+      "description": "This ratio helps differentiate between different causes of kidney dysfunction."
+    },
+    {
+      "test_name": "Total Cholesterol",
+      "aliases": [
+        "cholesterol",
+        "total chol",
+        "tc",
+        "serum cholesterol",
+        "cholesterol total",
+        "cholesterol (total)",
+        "s. cholesterol"
+      ],
+      "unit": "mg/dL",
+      "low": 0,
+      "high": 200,
+      "category": "Lipid Panel",
+      "description": "Total cholesterol measures all the cholesterol in your blood. High levels may increase heart disease risk."
+    },
+    {
+      "test_name": "HDL Cholesterol",
+      "aliases": [
+        "hdl",
+        "hdl-c",
+        "good cholesterol",
+        "high density lipoprotein",
+        "hdl cholesterol (direct)",
+        "hdl direct",
+        "hdl-cholesterol"
+      ],
+      "unit": "mg/dL",
+      "low": 40,
+      "high": 60,
+      "category": "Lipid Panel",
+      "description": "HDL is 'good' cholesterol because it helps remove other forms of cholesterol from your bloodstream."
+    },
+    {
+      "test_name": "LDL Cholesterol",
+      "aliases": [
+        "ldl",
+        "ldl-c",
+        "bad cholesterol",
+        "low density lipoprotein",
+        "ldl cholesterol (direct)",
+        "ldl direct",
+        "ldl-cholesterol",
+        "ldl calculated"
+      ],
+      "unit": "mg/dL",
+      "low": 0,
+      "high": 100,
+      "category": "Lipid Panel",
+      "description": "LDL is 'bad' cholesterol because high levels can lead to plaque buildup in arteries."
+    },
+    {
+      "test_name": "Triglycerides",
+      "aliases": [
+        "tg",
+        "trigs",
+        "triglyceride",
+        "serum triglycerides",
+        "triglycerides (serum)",
+        "s. triglycerides"
+      ],
+      "unit": "mg/dL",
+      "low": 0,
+      "high": 150,
+      "category": "Lipid Panel",
+      "description": "Triglycerides are a type of fat in your blood. High levels may increase heart disease risk."
+    },
+    {
+      "test_name": "VLDL Cholesterol",
+      "aliases": [
+        "vldl",
+        "vldl-c",
+        "very low density lipoprotein",
+        "vldl cholesterol",
+        "vldl-cholesterol"
+      ],
+      "unit": "mg/dL",
+      "low": 2,
+      "high": 30,
+      "category": "Lipid Panel",
+      "description": "VLDL carries triglycerides in the blood. High levels may contribute to plaque buildup."
+    },
+    {
+      "test_name": "Total Cholesterol/HDL Ratio",
+      "aliases": [
+        "tc/hdl ratio",
+        "cholesterol/hdl ratio",
+        "chol/hdl ratio",
+        "cholesterol hdl ratio",
+        "tc/hdl"
+      ],
+      "unit": "",
+      "low": 0,
+      "high": 5.0,
+      "category": "Lipid Panel",
+      "description": "This ratio helps assess cardiovascular risk. Lower values are better."
+    },
+    {
+      "test_name": "LDL/HDL Ratio",
+      "aliases": [
+        "ldl hdl ratio",
+        "ldl:hdl ratio",
+        "ldl/hdl"
+      ],
+      "unit": "",
+      "low": 0,
+      "high": 3.5,
+      "category": "Lipid Panel",
+      "description": "This ratio helps assess cardiovascular risk. Lower values indicate lower risk."
+    },
+    {
+      "test_name": "TSH",
+      "aliases": [
+        "thyroid stimulating hormone",
+        "tsh ultrasensitive",
+        "s. tsh",
+        "tsh (ultrasensitive)",
+        "tsh 3rd generation",
+        "thyroid stimulating hormone (tsh)"
+      ],
+      "unit": "uIU/mL",
+      "low": 0.4,
+      "high": 4.0,
+      "category": "Thyroid Panel",
+      "description": "TSH controls how much thyroid hormone your thyroid gland makes."
+    },
+    {
+      "test_name": "T3",
+      "aliases": [
+        "total t3",
+        "triiodothyronine",
+        "t3 total",
+        "serum t3"
+      ],
+      "unit": "ng/dL",
+      "low": 80,
+      "high": 200,
+      "category": "Thyroid Panel",
+      "description": "T3 is a thyroid hormone that regulates metabolism, energy, and body temperature."
+    },
+    {
+      "test_name": "T4",
+      "aliases": [
+        "total t4",
+        "thyroxine",
+        "t4 total",
+        "serum t4"
+      ],
+      "unit": "ug/dL",
+      "low": 5.0,
+      "high": 12.0,
+      "category": "Thyroid Panel",
+      "description": "T4 is the main thyroid hormone. It regulates metabolism and growth."
+    },
+    {
+      "test_name": "Free T3",
+      "aliases": [
+        "ft3",
+        "free triiodothyronine",
+        "f.t3",
+        "free t3 (ft3)"
+      ],
+      "unit": "pg/mL",
+      "low": 2.0,
+      "high": 4.4,
+      "category": "Thyroid Panel",
+      "description": "Free T3 is the active form of triiodothyronine available for your body to use."
+    },
+    {
+      "test_name": "Free T4",
+      "aliases": [
+        "ft4",
+        "free thyroxine",
+        "f.t4",
+        "free t4 (ft4)"
+      ],
+      "unit": "ng/dL",
+      "low": 0.8,
+      "high": 1.8,
+      "category": "Thyroid Panel",
+      "description": "Free T4 is the unbound, active form of thyroxine available for your body to use."
+    },
+    {
+      "test_name": "Fasting Blood Sugar",
+      "aliases": [
+        "fbs",
+        "fasting glucose",
+        "fasting blood glucose",
+        "blood sugar fasting",
+        "glucose fasting",
+        "glucose (fasting)",
+        "fbs (fasting blood sugar)",
+        "blood glucose fasting"
+      ],
+      "unit": "mg/dL",
+      "low": 70,
+      "high": 100,
+      "category": "Diabetes / Metabolic",
+      "description": "Fasting blood sugar measures your blood glucose level after not eating for at least 8 hours."
+    },
+    {
+      "test_name": "HbA1c",
+      "aliases": [
+        "glycated hemoglobin",
+        "a1c",
+        "glycosylated hemoglobin",
+        "hba1c",
+        "hb a1c",
+        "hemoglobin a1c",
+        "glycated hb"
+      ],
+      "unit": "%",
+      "low": 4.0,
+      "high": 5.7,
+      "category": "Diabetes / Metabolic",
+      "description": "HbA1c reflects your average blood sugar levels over the past 2-3 months."
+    },
+    {
+      "test_name": "Random Blood Sugar",
+      "aliases": [
+        "rbs",
+        "random glucose",
+        "blood sugar random",
+        "glucose random",
+        "glucose (random)",
+        "blood glucose random"
+      ],
+      "unit": "mg/dL",
+      "low": 70,
+      "high": 140,
+      "category": "Diabetes / Metabolic",
+      "description": "Random blood sugar measures glucose at any time of day, regardless of when you last ate."
+    },
+    {
+      "test_name": "Post Prandial Blood Sugar",
+      "aliases": [
+        "ppbs",
+        "pp blood sugar",
+        "postprandial glucose",
+        "glucose pp",
+        "pp glucose",
+        "blood sugar pp",
+        "glucose (pp)",
+        "post meal glucose"
+      ],
+      "unit": "mg/dL",
+      "low": 70,
+      "high": 140,
+      "category": "Diabetes / Metabolic",
+      "description": "Post prandial blood sugar is measured 2 hours after eating."
+    },
+    {
+      "test_name": "Sodium",
+      "aliases": [
+        "na",
+        "na+",
+        "serum sodium",
+        "s. sodium",
+        "sodium (na)",
+        "sodium (serum)"
+      ],
+      "unit": "mEq/L",
+      "low": 136,
+      "high": 145,
+      "category": "Electrolytes",
+      "description": "Sodium helps regulate fluid balance, nerve function, and muscle contractions."
+    },
+    {
+      "test_name": "Potassium",
+      "aliases": [
+        "k",
+        "k+",
+        "serum potassium",
+        "s. potassium",
+        "potassium (k)",
+        "potassium (serum)"
+      ],
+      "unit": "mEq/L",
+      "low": 3.5,
+      "high": 5.0,
+      "category": "Electrolytes",
+      "description": "Potassium is essential for nerve signals, muscle contractions, and heart function."
+    },
+    {
+      "test_name": "Calcium",
+      "aliases": [
+        "ca",
+        "ca++",
+        "serum calcium",
+        "s. calcium",
+        "total calcium",
+        "calcium (ca)",
+        "calcium (serum)"
+      ],
+      "unit": "mg/dL",
+      "low": 8.5,
+      "high": 10.5,
+      "category": "Electrolytes",
+      "description": "Calcium is vital for strong bones, heart function, and nerve signaling."
+    },
+    {
+      "test_name": "Chloride",
+      "aliases": [
+        "cl",
+        "cl-",
+        "serum chloride",
+        "s. chloride",
+        "chloride (cl)",
+        "chloride (serum)"
+      ],
+      "unit": "mEq/L",
+      "low": 98,
+      "high": 106,
+      "category": "Electrolytes",
+      "description": "Chloride helps maintain fluid balance and is essential for digestion."
+    },
+    {
+      "test_name": "Phosphorus",
+      "aliases": [
+        "phosphate",
+        "serum phosphorus",
+        "s. phosphorus",
+        "inorganic phosphorus",
+        "phosphorous"
+      ],
+      "unit": "mg/dL",
+      "low": 2.5,
+      "high": 4.5,
+      "category": "Electrolytes",
+      "description": "Phosphorus works with calcium to build strong bones and teeth."
+    },
+    {
+      "test_name": "Magnesium",
+      "aliases": [
+        "mg",
+        "serum magnesium",
+        "s. magnesium",
+        "magnesium (serum)"
+      ],
+      "unit": "mg/dL",
+      "low": 1.7,
+      "high": 2.2,
+      "category": "Electrolytes",
+      "description": "Magnesium supports muscle and nerve function, blood sugar control, and bone health."
+    },
+    {
+      "test_name": "Bicarbonate",
+      "aliases": [
+        "hco3",
+        "co2",
+        "serum bicarbonate",
+        "total co2",
+        "carbon dioxide"
+      ],
+      "unit": "mEq/L",
+      "low": 22,
+      "high": 29,
+      "category": "Electrolytes",
+      "description": "Bicarbonate helps maintain the body's acid-base balance."
+    },
+    {
+      "test_name": "Serum Iron",
+      "aliases": [
+        "iron",
+        "s. iron",
+        "fe",
+        "iron (serum)",
+        "serum fe"
+      ],
+      "unit": "ug/dL",
+      "low": 60,
+      "high": 170,
+      "category": "Iron Studies",
+      "description": "Serum iron measures the amount of circulating iron in your blood."
+    },
+    {
+      "test_name": "Ferritin",
+      "aliases": [
+        "serum ferritin",
+        "s. ferritin",
+        "ferritin (serum)"
+      ],
+      "unit": "ng/mL",
+      "low": 12,
+      "high": 300,
+      "category": "Iron Studies",
+      "description": "Ferritin reflects how much iron your body has stored."
+    },
+    {
+      "test_name": "TIBC",
+      "aliases": [
+        "total iron binding capacity",
+        "iron binding capacity",
+        "t.i.b.c.",
+        "t.i.b.c"
+      ],
+      "unit": "ug/dL",
+      "low": 250,
+      "high": 370,
+      "category": "Iron Studies",
+      "description": "TIBC measures how well your blood can transport iron."
+    },
+    {
+      "test_name": "Transferrin Saturation",
+      "aliases": [
+        "tsat",
+        "transferrin sat",
+        "iron saturation",
+        "% saturation"
+      ],
+      "unit": "%",
+      "low": 20,
+      "high": 50,
+      "category": "Iron Studies",
+      "description": "Transferrin saturation measures how much iron is bound to the protein transferrin."
+    },
+    {
+      "test_name": "Vitamin D",
+      "aliases": [
+        "vit d",
+        "25-oh vitamin d",
+        "25-hydroxyvitamin d",
+        "vitamin d3",
+        "25 oh d",
+        "vit d3",
+        "vitamin d total",
+        "25-hydroxy vitamin d"
+      ],
+      "unit": "ng/mL",
+      "low": 30,
+      "high": 100,
+      "category": "Vitamins",
+      "description": "Vitamin D is essential for bone health, immune function, and calcium absorption."
+    },
+    {
+      "test_name": "Vitamin B12",
+      "aliases": [
+        "vit b12",
+        "cobalamin",
+        "cyanocobalamin",
+        "b12",
+        "vitamin b-12",
+        "serum b12"
+      ],
+      "unit": "pg/mL",
+      "low": 200,
+      "high": 900,
+      "category": "Vitamins",
+      "description": "Vitamin B12 is crucial for nerve function, red blood cell formation, and DNA synthesis."
+    },
+    {
+      "test_name": "Folic Acid",
+      "aliases": [
+        "folate",
+        "vitamin b9",
+        "serum folate",
+        "folic acid (serum)",
+        "s. folate"
+      ],
+      "unit": "ng/mL",
+      "low": 3.0,
+      "high": 17.0,
+      "category": "Vitamins",
+      "description": "Folic acid is important for cell growth and is especially vital during pregnancy."
+    },
+    {
+      "test_name": "CRP",
+      "aliases": [
+        "c-reactive protein",
+        "c reactive protein",
+        "crp quantitative",
+        "hs-crp",
+        "high sensitivity crp",
+        "hs crp"
+      ],
+      "unit": "mg/L",
+      "low": 0,
+      "high": 5.0,
+      "category": "Inflammation Markers",
+      "description": "CRP is a marker of inflammation in the body. High levels may indicate infection or chronic disease."
+    },
+    {
+      "test_name": "Procalcitonin",
+      "aliases": [
+        "pct (procalcitonin)",
+        "pro calcitonin"
+      ],
+      "unit": "ng/mL",
+      "low": 0,
+      "high": 0.5,
+      "category": "Inflammation Markers",
+      "description": "Procalcitonin helps differentiate bacterial infections from other types of infections."
+    },
+    {
+      "test_name": "LDH",
+      "aliases": [
+        "lactate dehydrogenase",
+        "lactic dehydrogenase",
+        "l.d.h.",
+        "ldh (serum)"
+      ],
+      "unit": "U/L",
+      "low": 140,
+      "high": 280,
+      "category": "Enzymes",
+      "description": "LDH is an enzyme found in many tissues. Elevated levels may indicate tissue damage."
+    },
+    {
+      "test_name": "CPK",
+      "aliases": [
+        "creatine phosphokinase",
+        "creatine kinase",
+        "ck",
+        "cpk total",
+        "ck total",
+        "creatine kinase (total)"
+      ],
+      "unit": "U/L",
+      "low": 30,
+      "high": 200,
+      "category": "Enzymes",
+      "description": "CPK is an enzyme found in heart, brain, and muscles. High levels may indicate muscle damage."
+    },
+    {
+      "test_name": "Amylase",
+      "aliases": [
+        "serum amylase",
+        "s. amylase",
+        "amylase (serum)"
+      ],
+      "unit": "U/L",
+      "low": 28,
+      "high": 100,
+      "category": "Enzymes",
+      "description": "Amylase is an enzyme that helps digest carbohydrates. High levels may indicate pancreatic problems."
+    },
+    {
+      "test_name": "Lipase",
+      "aliases": [
+        "serum lipase",
+        "s. lipase",
+        "lipase (serum)"
+      ],
+      "unit": "U/L",
+      "low": 0,
+      "high": 160,
+      "category": "Enzymes",
+      "description": "Lipase is a pancreatic enzyme. Elevated levels may point to pancreatic inflammation."
+    },
+    {
+      "test_name": "PT",
+      "aliases": [
+        "prothrombin time",
+        "pt time",
+        "p.t.",
+        "prothrombin time (pt)"
+      ],
+      "unit": "sec",
+      "low": 11.0,
+      "high": 13.5,
+      "category": "Coagulation",
+      "description": "PT measures how long it takes blood to clot. It monitors blood-thinning medications."
+    },
+    {
+      "test_name": "INR",
+      "aliases": [
+        "international normalized ratio",
+        "pt/inr",
+        "inr value"
+      ],
+      "unit": "",
+      "low": 0.8,
+      "high": 1.1,
+      "category": "Coagulation",
+      "description": "INR standardizes PT results for monitoring anticoagulant therapy."
+    },
+    {
+      "test_name": "aPTT",
+      "aliases": [
+        "activated partial thromboplastin time",
+        "aptt",
+        "ptt",
+        "partial thromboplastin time"
+      ],
+      "unit": "sec",
+      "low": 25,
+      "high": 35,
+      "category": "Coagulation",
+      "description": "aPTT measures the time it takes for blood to clot via the intrinsic pathway."
+    },
+    {
+      "test_name": "D-Dimer",
+      "aliases": [
+        "d dimer",
+        "ddimer",
+        "d-dimer quantitative"
+      ],
+      "unit": "ng/mL",
+      "low": 0,
+      "high": 500,
+      "category": "Coagulation",
+      "description": "D-Dimer helps detect blood clots. Elevated levels may indicate clotting disorders."
+    },
+    {
+      "test_name": "Fibrinogen",
+      "aliases": [
+        "fibrinogen level",
+        "plasma fibrinogen"
+      ],
+      "unit": "mg/dL",
+      "low": 200,
+      "high": 400,
+      "category": "Coagulation",
+      "description": "Fibrinogen is a protein essential for blood clot formation."
+    },
+    {
+      "test_name": "PSA",
+      "aliases": [
+        "prostate specific antigen",
+        "total psa",
+        "psa total",
+        "psa (total)"
+      ],
+      "unit": "ng/mL",
+      "low": 0,
+      "high": 4.0,
+      "category": "Tumor Markers",
+      "description": "PSA is used to screen for prostate conditions. Elevated levels may warrant further evaluation."
+    },
+    {
+      "test_name": "CEA",
+      "aliases": [
+        "carcinoembryonic antigen",
+        "cea level"
+      ],
+      "unit": "ng/mL",
+      "low": 0,
+      "high": 5.0,
+      "category": "Tumor Markers",
+      "description": "CEA is a tumor marker. It may be elevated in certain types of cancer."
+    },
+    {
+      "test_name": "AFP",
+      "aliases": [
+        "alpha fetoprotein",
+        "alpha-fetoprotein",
+        "afp level"
+      ],
+      "unit": "ng/mL",
+      "low": 0,
+      "high": 10,
+      "category": "Tumor Markers",
+      "description": "AFP is a protein produced by the liver. It is used as a tumor marker."
+    },
+    {
+      "test_name": "Urine pH",
+      "aliases": [
+        "ph (urine)",
+        "urine ph level",
+        "urinary ph"
+      ],
+      "unit": "",
+      "low": 4.5,
+      "high": 8.0,
+      "category": "Urinalysis",
+      "description": "Urine pH measures how acidic or alkaline your urine is."
+    },
+    {
+      "test_name": "Urine Specific Gravity",
+      "aliases": [
+        "specific gravity",
+        "sp. gravity",
+        "sp gravity",
+        "urine sp gravity"
+      ],
+      "unit": "",
+      "low": 1.005,
+      "high": 1.030,
+      "category": "Urinalysis",
+      "description": "Specific gravity measures how concentrated your urine is."
+    },
+    {
+      "test_name": "Urine Protein",
+      "aliases": [
+        "protein (urine)",
+        "urine albumin",
+        "proteinuria"
+      ],
+      "unit": "mg/dL",
+      "low": 0,
+      "high": 14,
+      "category": "Urinalysis",
+      "description": "Urine protein measures protein levels in urine. Elevated levels may indicate kidney issues."
+    },
+    {
+      "test_name": "Urine Glucose",
+      "aliases": [
+        "glucose (urine)",
+        "glycosuria",
+        "urine sugar"
+      ],
+      "unit": "mg/dL",
+      "low": 0,
+      "high": 15,
+      "category": "Urinalysis",
+      "description": "Glucose in urine may indicate diabetes or kidney problems."
+    },
+    {
+      "test_name": "Microalbumin",
+      "aliases": [
+        "microalbumin urine",
+        "urine microalbumin",
+        "micro albumin",
+        "microalbumin/creatinine ratio",
+        "acr"
+      ],
+      "unit": "mg/L",
+      "low": 0,
+      "high": 30,
+      "category": "Urinalysis",
+      "description": "Microalbumin detects very small amounts of albumin in urine, an early sign of kidney damage."
+    }
+  ]
+}
