@@ -259,13 +259,17 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("### Settings")
+    if "gemini_key" not in st.session_state:
+        st.session_state.gemini_key = ""
+    
     api_key = st.text_input(
         "Google Gemini API Key",
         type="password",
-        value=os.getenv("GOOGLE_API_KEY", ""),
-        help="Required for unstructured PDF extraction and AI summaries."
+        value=st.session_state.gemini_key
     )
+    
     if api_key:
+        st.session_state.gemini_key = api_key
         os.environ["GOOGLE_API_KEY"] = api_key
         st.success("API Key configured")
     else:
